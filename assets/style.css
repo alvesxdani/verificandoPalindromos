@@ -1,0 +1,24 @@
+body{
+    font: 10px 'Consolas';
+    color: #000;
+}
+
+.main-box {
+    width: 600px !important;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+}
+
+#palindromo {
+    display: block;
+    width: 100%;
+}
