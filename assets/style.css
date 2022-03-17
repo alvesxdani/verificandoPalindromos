@@ -22,3 +22,11 @@ h1 {
     display: block;
     width: 100%;
 }
+
+#resultado {
+    display: block;
+    background: #eee;
+    padding: 7px;
+    border-radius: 5px;
+    font: 14px 'Consolas';
+}
