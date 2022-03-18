@@ -9,7 +9,7 @@ function verificar() {
     let otherPhrase = phrase.split("").reverse().join("");
 
     if(phrase === "") {
-        resultado.innerHTML = "⚠ Escreva algo!";
+        resultado.innerHTML = "🚨 Escreva algo!";
     } else if (phrase === otherPhrase) {
         resultado.innerHTML = "✅ É um palíndromo!";
     } else if (phrase != otherPhrase) {
